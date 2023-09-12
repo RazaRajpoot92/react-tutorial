@@ -12,3 +12,16 @@
   color: rgb(215, 155, 76);
   background-color: azure;
 }
+
+.Animal {
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+  background-color: lightcyan;
+}
+
+.Animal h1:hover{
+  cursor: pointer;
+  color: rgb(207, 207, 178);
+
+}

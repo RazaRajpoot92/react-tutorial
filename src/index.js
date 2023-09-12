@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Person from "./Components/Person";
 import User from "./Components/User";
+import Animal from "./Components/Animal"
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +14,8 @@ root.render(
   <div>
     <Person/>,
     <App />,
-    <User />
+    <User />,
+    <Animal />
   </div>
 
 );
