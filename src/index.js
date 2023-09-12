@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Person from "./Components/Person"
+import Person from "./Components/Person";
+import User from "./Components/User";
 
 import reportWebVitals from './reportWebVitals';
 
@@ -11,7 +12,8 @@ root.render(
 
   <div>
     <Person/>,
-    <App />
+    <App />,
+    <User />
   </div>
 
 );
