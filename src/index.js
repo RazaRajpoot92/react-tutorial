@@ -3,19 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Person from "./Components/Person";
-import User from "./Components/User";
-import Animal from "./Components/Animal"
-
+import Man from "./Components/man"
+import Animal from "./Components/state"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
   <div>
-    <Person/>,
-    <App />,
-    <User />,
+
+    <Person name="john"/>
+    <App />
+    <Man count="1"/>
     <Animal />
+
+
   </div>
 
 );

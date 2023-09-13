@@ -7,6 +7,7 @@ function App() {
       <h1 className="App-logo-spin">My First React app</h1>
 
     </div>
+      
 
   );
 }
