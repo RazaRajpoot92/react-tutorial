@@ -1,8 +1,31 @@
+
+import { useState } from "react";
 import "./Button.css"
-function Button(){
+function Button({children, onPlay, onPaused}){
+
+    let [state,setState] = useState(false);
+
+    function clickHandler(e){
+        e.stopPropagation();
+        // overriding the  onPlay function
+
+        function onPlay(){
+            console.log("its working");
+        }
+
+        //----------------------------//
+        if(state) onPaused();
+
+        else onPlay()
+
+        setState(state=!state)
+
+
+    }
+
 
     return(
-        <button className="btn" onClick={()=> alert("Playing!!!")}>Play</button>
+        <button className="btn" onClick={clickHandler}>{state?"Pause":children}</button>
     );
 
 }

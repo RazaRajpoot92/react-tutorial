@@ -12,6 +12,7 @@ function App(){
             <div className="container">
 
                 {videoData.map((user)=> (
+                    <div className="con">
                     <Thumbnail
 
                         key={user.id}
@@ -23,10 +24,13 @@ function App(){
                         id={user.id}
 
                     />
+                    <Button onPlay={()=>console.log("Playing..")} onPaused={()=>console.log("Paused..")}>Play</Button>
+                    </div>
                 ) )}
 
+
             </div>
-            <Button>Play</Button>
+
         </div>
     );
 
