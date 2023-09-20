@@ -18,7 +18,7 @@ function Button({children, onPlay, onPaused}){
 
         else onPlay()
 
-        setState(state=!state)
+        setState(!state)
 
 
     }
