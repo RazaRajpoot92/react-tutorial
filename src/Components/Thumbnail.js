@@ -2,24 +2,22 @@ import "./Thumbnail.css"
 
 
 
-function Thumbnail({title, views, channel, time}){
-
-    
+function Thumbnail({title, views, channel, time, verified,id}){
 
     return(
 
-        <div className="container">
+        <div className="content">
 
-            <div className="content">
-
-            <img className="img" src="https://picsum.photos/300/200" />
+            <img className="img" src={`https://picsum.photos/id/${id}/300/200`} />
 
             <div className="title">{title}</div>
-            <div className="channel">{channel}</div>
-            <di className="views">{views} view <span className="dot">.</span> {time}</di>
 
-            </div>
+            <div className="channel">{channel} {verified? '✔️':null}</div>
+
+            <div className="views">{views} view <span className="dot">.</span> {time}</div>
+
         </div>
+
     );
 }
 

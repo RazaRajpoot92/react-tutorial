@@ -10,10 +10,6 @@ body{
   height: 100vh;
   background-color: rgb(36, 36, 36);
   color:white;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  justify-content: center;
+  padding-top: 20px;
 
 }
