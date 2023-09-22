@@ -1,8 +1,8 @@
-import { useState } from "react";
 import "./App.css"
 import Button from "./Components/Button";
 import Thumbnail from "./Components/Thumbnail";
 import videoData from "./data/videoData"
+import AddVideo from "./Components/AddVideo";
 
 function App(){
 
@@ -12,8 +12,10 @@ function App(){
 
             <div className="container">
 
+
                 {videoData.map((user)=> (
                     <div className="con">
+
                     <Thumbnail
 
                         key={user.id}
@@ -25,13 +27,14 @@ function App(){
                         id={user.id}
 
                     />
+
                     <Button onPlay={()=>console.log("Playing..")} onPaused={()=>console.log("Paused..")}>Play</Button>
                     </div>
                 ) )}
 
 
             </div>
-
+            <AddVideo></AddVideo>
         </div>
     );
 

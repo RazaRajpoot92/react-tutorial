@@ -1,0 +1,25 @@
+.btn1{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    padding:7px !important;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.form-input{
+    background-color: rgb(78, 71, 71);
+    color: white;
+    margin-left:10px;
+    border: 1px solid black;
+    padding:7px;
+    border-radius: 5px;
+
+}
+
+.form-main-container{
+    display: flex;
+    padding:1px;
+    justify-content: center;
+
+}
