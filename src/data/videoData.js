@@ -39,38 +39,8 @@ const videoData =[
         time:"year ago",
         verified:true,
     },
-    {
-        id:6,
-        title:"Learn Node JS in One Video",
-        channel:"Code Dost",
-        views:"1M",
-        time:"year ago",
-        verified:true,
-    },
-    {
-        id:7,
-        title:"Learn Node JS in One Video",
-        channel:"Code Dost",
-        views:"1M",
-        time:"year ago",
-        verified:true,
-    },
-    {
-        id:8,
-        title:"Learn Node JS in One Video",
-        channel:"Code Dost",
-        views:"1M",
-        time:"year ago",
-        verified:true,
-    },
-    {
-        id:9,
-        title:"Learn Node JS in One Video",
-        channel:"Code Dost",
-        views:"1M",
-        time:"year ago",
-        verified:true,
-    },
+
+
 
 ]
 
