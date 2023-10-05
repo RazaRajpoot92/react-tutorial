@@ -28,7 +28,7 @@ function App(){
 
                     />
 
-                    <Button onPlay={()=>console.log("Playing..")} onPaused={()=>console.log("Paused..")}>Play</Button>
+                    <Button onPlay={()=>console.log("Playing")} onPaused={()=>console.log("Paused..")}>Play</Button>
                     </div>
                 ) )}
 
